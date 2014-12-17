@@ -841,7 +841,7 @@ Phaser.Device._initialize = function () {
         if (device.node)
         {
             try {
-                device.nodeWebkit = (typeof require('nw.gui') !== "undefined");
+                device.nodeWebkit = (typeof process == "object");
             }
             catch(error)
             {
