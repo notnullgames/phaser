@@ -2,7 +2,5 @@
   "name": "phaser",
   "version": "3.0.0",
   "description": "phaser fork: A fast, free and fun HTML5 Game Framework for Desktop and Mobile web browsers.",
-  "main": "index.js",
-  "devDependencies": {
-  }
+  "main": "src/index.js",
 }
