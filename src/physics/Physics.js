@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * The Physics Manager is responsible for looking after all of the running physics systems.
 * Phaser supports 4 physics systems: Arcade Physics, P2, Ninja Physics and Box2D via a commercial plugin.

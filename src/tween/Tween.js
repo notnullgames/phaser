@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * A Tween allows you to alter one or more properties of a target object over a defined period of time.
 * This can be used for things such as alpha fading Sprites, scaling them or motion.

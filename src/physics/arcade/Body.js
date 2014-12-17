@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * The Physics Body is linked to a single Sprite. All physics operations should be performed against the body rather than
 * the Sprite itself. For example you can set the velocity, acceleration, bounce values etc all on the Body.

@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * Create a new `Text` object. This uses a local hidden Canvas object and renders the type into it. It then makes a texture from this for renderning to the view.
 * Because of this you can only display fonts that are currently loaded and available to the browser. It won't load the fonts for you.

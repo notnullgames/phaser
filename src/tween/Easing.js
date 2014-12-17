@@ -6,6 +6,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * A collection of easing methods defining ease-in and ease-out curves.
 *

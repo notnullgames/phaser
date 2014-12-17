@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * A RenderTexture is a special texture that allows any displayObject to be rendered to it. It allows you to take many complex objects and
 * render them down into a single quad (on WebGL) which can then be used to texture other display objects with. A way of generating textures at run-time.

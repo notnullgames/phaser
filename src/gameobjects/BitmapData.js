@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * A BitmapData object contains a Canvas element to which you can draw anything you like via normal Canvas context operations.
 * A single BitmapData can be used as the texture for one or many Images/Sprites. 

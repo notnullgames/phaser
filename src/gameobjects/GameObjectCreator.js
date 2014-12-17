@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * The GameObjectCreator is a quick way to create common game objects _without_ adding them to the game world.
 * The object creator can be accessed with {@linkcode Phaser.Game#make `game.make`}.

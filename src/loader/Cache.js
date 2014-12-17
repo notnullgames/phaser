@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * A game only has one instance of a Cache and it is used to store all externally loaded assets such as images, sounds
 * and data files as a result of Loader calls. Cached items use string based keys for look-up.

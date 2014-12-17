@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * If you need more fine-grained control over the handling of specific keys you can create and use Phaser.Key objects.
 * 

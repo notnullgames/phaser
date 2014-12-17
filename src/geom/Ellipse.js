@@ -5,6 +5,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * Creates a Ellipse object. A curve on a plane surrounding two focal points.
 * 

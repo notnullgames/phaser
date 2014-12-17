@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * The Stage controls root level display objects upon which everything is displayed.
 * It also handles browser visibility handling and the pausing due to loss of focus.

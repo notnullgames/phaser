@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * ArraySet is a Set data structure (items must be unique within the set) that also maintains order.
 * This allows specific items to be easily added or removed from the Set.

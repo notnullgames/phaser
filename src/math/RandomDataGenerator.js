@@ -6,6 +6,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * An extremely useful repeatable random data generator.
 * Based on Nonsense by Josh Faul https://github.com/jocafa/Nonsense.

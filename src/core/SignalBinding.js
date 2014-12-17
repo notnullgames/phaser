@@ -5,6 +5,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * Object that represents a binding between a Signal and a listener function.
 * This is an internal constructor and shouldn't be created directly.

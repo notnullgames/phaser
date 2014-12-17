@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * The Animation Manager is used to add, play and update Phaser Animations.
 * Any Game Object such as Phaser.Sprite that supports animation contains a single AnimationManager instance.

@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * Creates a new Circle object with the center coordinate specified by the x and y parameters and the diameter specified by the diameter parameter.
 * If you call this function without parameters, a circle with x, y, diameter and radius properties set to 0 is created.

@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * A Phaser.Tween contains at least one TweenData object. It contains all of the tween data values, such as the
 * starting and ending values, the ease function, interpolation and duration. The Tween acts as a timeline manager for

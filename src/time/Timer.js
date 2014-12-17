@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * A Timer is a way to create small re-usable (or disposable) objects that wait for a specific moment in time,
 * and then run the specified callbacks.

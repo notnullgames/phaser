@@ -4,6 +4,9 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var Phaser = require('../Phaser.js');
+
+
 /**
 * Creates a new Rectangle object with the top-left corner specified by the x and y parameters and with the specified width and height parameters.
 * If you call this function without parameters, a Rectangle with x, y, width, and height properties set to 0 is created.
