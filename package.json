@@ -4,6 +4,6 @@
   "description": "phaser fork: A fast, free and fun HTML5 Game Framework for Desktop and Mobile web browsers.",
   "main": "src/entry_points/full.js",
   "dependencies": {
-  	"pixi": ""
+  	"pixi.js": ""
   }
 }

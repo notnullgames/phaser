@@ -2,6 +2,9 @@
 * Original shader by @301z (http://glsl.heroku.com/e#11707.0)
 * Tweaked, uniforms added and converted to Phaser/PIXI by Richard Davey
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.Fire = function (game) {
 
     Phaser.Filter.call(this, game);

@@ -7,6 +7,9 @@
 * @class Gray
 * @contructor
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.Gray = function (game) {
 
     Phaser.Filter.call(this, game);

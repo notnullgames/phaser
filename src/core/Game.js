@@ -6,7 +6,7 @@
 
 var Phaser = require('../Phaser.js');
 
-var PIXI = require('pixi');
+var PIXI = require('pixi.js');
 
 
 /**
@@ -28,6 +28,8 @@ var PIXI = require('pixi');
 * @param {object} [physicsConfig=null] - A physics configuration object to pass to the Physics world on creation.
 */
 Phaser.Game = function (width, height, renderer, parent, state, transparent, antialias, physicsConfig) {
+
+    console.log(Phaser);
 
     /**
     * @property {number} id - Phaser Game ID (for when Pixi supports multiple instances).

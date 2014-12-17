@@ -1,6 +1,9 @@
 /**
 * A sample demonstrating how to create new Phaser Filters.
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.SampleFilter = function (game) {
 
     Phaser.Filter.call(this, game);

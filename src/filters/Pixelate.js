@@ -8,6 +8,10 @@
 * @class PixelateFilter
 * @contructor
 */
+
+var Phaser = require('../Phaser.js');
+
+
 Phaser.Filter.Pixelate = function(game) {
 
     Phaser.Filter.call(this, game);

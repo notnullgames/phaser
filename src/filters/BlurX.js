@@ -1,6 +1,9 @@
 /**
 * A horizontal blur filter by Mat Groves http://matgroves.com/ @Doormat23
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.BlurX = function (game) {
 
     Phaser.Filter.call(this, game);

@@ -5,6 +5,8 @@
  * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
  */
 
+var Phaser = require('../Phaser.js');
+
 /**
  * Audio Sprites are a combination of audio files and a JSON configuration.
  * The JSON follows the format of that created by https://github.com/tonistiigi/audiosprite

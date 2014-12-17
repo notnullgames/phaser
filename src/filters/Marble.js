@@ -2,6 +2,9 @@
 * Original shader from http://glsl.heroku.com/e#9213.0
 * Tweaked, uniforms added and converted to Phaser/PIXI by Richard Davey
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.Marble = function (game) {
 
     Phaser.Filter.call(this, game);

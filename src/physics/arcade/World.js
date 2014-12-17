@@ -6,7 +6,7 @@
 
 var Phaser = require('../../Phaser.js');
 
-var PIXI = require('pixi');
+var PIXI = require('pixi.js');
 
 
 /**

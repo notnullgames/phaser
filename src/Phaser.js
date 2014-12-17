@@ -76,4 +76,4 @@ var Phaser = Phaser || {
 
 };
 
-
+module.exports = Phaser;

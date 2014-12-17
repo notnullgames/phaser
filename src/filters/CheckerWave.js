@@ -2,6 +2,9 @@
 * Original shader from http://glsl.heroku.com/e#12260.0
 * Tweaked, uniforms added and converted to Phaser/PIXI by Richard Davey
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.CheckerWave = function (game) {
 
     Phaser.Filter.call(this, game);

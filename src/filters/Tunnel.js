@@ -2,6 +2,9 @@
 * Original shader by 4rknova (https://www.shadertoy.com/view/lssGDn)
 * Tweaked, uniforms added and converted to Phaser/PIXI by Richard Davey
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.Tunnel = function (game) {
 
     Phaser.Filter.call(this, game);

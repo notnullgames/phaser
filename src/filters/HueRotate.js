@@ -2,6 +2,9 @@
 * Original shader by Daniil (https://www.shadertoy.com/view/4sl3DH)
 * Tweaked, uniforms added and converted to Phaser/PIXI by Richard Davey
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.HueRotate = function (game) {
 
     Phaser.Filter.call(this, game);

@@ -2,6 +2,9 @@
 * Original shader by thygate@gmail.com, rotation and color mix modifications by malc (mlashley@gmail.com)
 * Tweaked, uniforms added and converted to Phaser/PIXI by Richard Davey
 */
+
+var Phaser = require('../Phaser.js');
+
 Phaser.Filter.ColorBars = function (game) {
 
     Phaser.Filter.call(this, game);
