@@ -29,8 +29,6 @@ var PIXI = require('pixi.js');
 */
 Phaser.Game = function (width, height, renderer, parent, state, transparent, antialias, physicsConfig) {
 
-    console.log(Phaser);
-
     /**
     * @property {number} id - Phaser Game ID (for when Pixi supports multiple instances).
     * @readonly
