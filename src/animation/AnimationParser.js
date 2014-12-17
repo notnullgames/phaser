@@ -6,6 +6,7 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
 
 /**
 * Responsible for parsing sprite sheet and JSON data into the internal FrameData format that Phaser uses for animations.

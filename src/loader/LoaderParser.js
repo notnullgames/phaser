@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * Phaser.LoaderParser parses data objects from Phaser.Loader that need more preparation before they can be inserted into the Cache.

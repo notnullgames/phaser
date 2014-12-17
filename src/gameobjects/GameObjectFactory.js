@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * The GameObjectFactory is a quick way to create mamy common game objects

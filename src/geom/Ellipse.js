@@ -7,6 +7,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * Creates a Ellipse object. A curve on a plane surrounding two focal points.

@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * A RenderTexture is a special texture that allows any displayObject to be rendered to it. It allows you to take many complex objects and

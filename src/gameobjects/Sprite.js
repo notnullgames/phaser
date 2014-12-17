@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * Sprites are the lifeblood of your game, used for nearly everything visual.

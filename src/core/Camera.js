@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * A Camera is your view into the game world. It has a position and size and renders only those objects within its field of view.

@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * Creates a new Rectangle object with the top-left corner specified by the x and y parameters and with the specified width and height parameters.

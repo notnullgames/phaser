@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * A TilemapLayer is a Phaser.Image/Sprite that renders a specific TileLayer of a Tilemap.

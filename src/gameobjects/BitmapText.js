@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * BitmapText objects work by taking a texture file and an XML file that describes the font layout.

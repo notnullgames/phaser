@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * The Arcade Physics world. Contains Arcade Physics related collision, overlap and motion methods.

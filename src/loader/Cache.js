@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * A game only has one instance of a Cache and it is used to store all externally loaded assets such as images, sounds

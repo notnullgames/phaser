@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * WARNING: This is an EXPERIMENTAL class. The API will change significantly in the coming versions and is incomplete.

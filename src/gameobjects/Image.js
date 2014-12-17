@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * An Image is a light-weight object you can use to display anything that doesn't need physics or animation.

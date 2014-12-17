@@ -6,6 +6,8 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
+
 
 /**
 * The GameObjectCreator is a quick way to create common game objects _without_ adding them to the game world.

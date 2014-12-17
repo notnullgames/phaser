@@ -6,6 +6,7 @@
 
 var Phaser = require('../Phaser.js');
 
+var PIXI = require('pixi');
 
 /**
 * A Frame is a single frame of an animation and is part of a FrameData collection.
