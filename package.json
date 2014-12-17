@@ -5,5 +5,15 @@
   "main": "src/entry_points/full.js",
   "dependencies": {
   	"pixi.js": ""
+  },
+  "devDependencies": {
+    "browserify": "",
+    "uglify-js": "",
+    "trash": "konsumer/trash"
+  },
+  "scripts": {
+    "full": "npm run clean && browserify src/entry_points/full.js -o phaser.js",
+    "full-min": "npm run full && uglifyjs phaser.js -o phaser.min.js",
+    "clean": "trash --force phaser.js phaser.min.js"
   }
 }

@@ -1,6 +1,7 @@
 /**
  * Entry-point for the full phaser, including shaders, physics, etc
  * Use this as an example, and fine-tune to what you actually need in your own project
+ * change '../' to 'phaser/src/' in your own stuff
  * manifests/phaser.json
  */
 
