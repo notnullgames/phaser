@@ -5,6 +5,8 @@
 * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
 */
 
+var PIXI = require('pixi.js');
+
 /**
 * @namespace Phaser
 */
@@ -75,5 +77,8 @@ var Phaser = Phaser || {
     }
 
 };
+
+//  We're going to supress the Pixi console log, with their agreement.
+PIXI.dontSayHello = true;
 
 module.exports = Phaser;
