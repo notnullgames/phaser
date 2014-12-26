@@ -22,7 +22,3 @@ You can get the whole shebang (including defaults physics libraries,) in your bo
 and then in your client-side code:
     
     var Phaser = require('phaser');
-
-We have put some premade CommonJS entry-points for a couple usecases in `src/entry_points`. You can require them directly, or use them as a template, if you don't want everything:
-
-    var Phaser = require('phaser/src/entry_points/no_physics.js');
